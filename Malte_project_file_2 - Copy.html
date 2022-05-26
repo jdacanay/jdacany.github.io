@@ -1,0 +1,870 @@
+<script src="https://api.collegeai.com/v1/api/bundle.js"></script>
+<script src="chartjava.js"></script>
+<script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+
+<div class="collegeai collegeai-session-data"
+data-api-key="551597216ed92a8469041b0f6a"
+></div>
+
+<html>
+
+  <title> Interactive Quiz For Students </title>
+      
+    <body style="background-color:rgb(39, 147, 167);">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          .vertical-menu {
+            width: 200px;
+          }
+            
+          .vertical-menu a {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+          }
+            
+          .vertical-menu a:hover {
+            background-color: #ccc;
+          }
+            
+          .vertical-menu a.active {
+            background-color: #04AA6D;
+            color: white;
+          }
+        </style>
+          <!-- </head> -->
+          <!-- <body> -->
+            
+            <div class="vertical-menu">
+              <a href="Malte_Project - Copy.html" class="active">Home</a>
+              <a href="Malte_project_file_2 - Copy.html">Quiz</a>
+              <a href="New_project_file_3.html">Discover More Colleges</a>
+              <a href="New_project_file_4.html">Study Abroad</a>
+              <a href="New_project_file_5.html">Extra</a>
+            </div>
+            
+            <!-- </body> -->
+
+
+    <!-- <center> -->
+<div style="position:relative; left:150px; top:-175px; background-color:#28327a; color:white; font-size: 20px; font-family: 'Times New Roman', Times, serif; border: 3px; border-color: black; border-style: solid; border-radius: 0.5cm; border-width: 33 px; width:67%; margin-left:100px; margin-right:300px;"  > 
+  <h1 style="text-align:center;"><b> Why Should You Start Looking for Colleges?</b></h1>
+        <!-- </center>  -->
+</div>
+<div style="position:relative; left:150px; top: -150px; background-color:#28327a; font-size: 18px; font-family: 'Times New Roman', Times, serif; border: 3px; border-color: black; border-style: solid; border-radius: 0.5cm; border-width: 33 px; width:67%; margin-left:100px; margin-right:300px; margin-top:10px; margin-bottom: 20px;"  > 
+  <font color="white"> 
+        <p style="text-align:center;"><b>Don’t be scared!</b>All the tools on this page are here to help you and make your college application and search process so much easier! Although starting your college search process may be scary at first, remember you're starting one of the most exciting times of your life! Although there are thousands of colleges out there, this page will help you narrow it down and help you to characterize your search to what fits best for you! Continue scrolling to take our quiz; each question is to help us plot you on a part of our graph! Even if you don’t know exactly what you want right now, answer the question to the best of your ability, or take the quiz multiple times! This is here to help you! 
+        </p>
+  </font>
+</div>
+
+<div style="position:relative; left:150px; top: -130px; background-color:#28327a; font-size: 18px; font-family: 'Times New Roman', Times, serif; border: 3px; border-color: black; border-style: solid; border-radius: 0.5cm; border-width: 33 px; width:67%; margin-left:100px; margin-right:300px; margin-top:10px; margin-bottom: 80px;"  > 
+  <font color="white">  
+    <h2 style="text-align:center;"><b>How To Use The Quiz: </b></h2>
+        <p style="text-align:center;"> Go through and take your time answering the questions below. Each question corresponds to a certain value that is represented on our graph. After finishing the quiz, you will get plotted on the graph based on your preferences and needs. You can look at the different colleges around that point to get a better idea of good schools for you! 
+        </p>
+  </font>
+</div>
+<div style="position:relative; left:150px; top: -170px; background-color:#28327a; font-size: 18px; font-family: 'Times New Roman', Times, serif; border: 3px; border-color: black; border-style: solid; border-radius: 0.5cm; border-width: 33 px; width:67%; margin-left:100px; margin-right:300px; margin-top:10px; margin-bottom: 80px;"  > 
+  <font color="white"> 
+    <h2 style="text-align:center;"><b> Why is this helpful?</b> </h2>
+        <p style="text-align:center;">On the next page, you will find a graph that is organized by affordability on the x-axis and flexibility on the y-axis! After taking the quiz, your answers will help to plot you in the quadrant of the graph that corresponds to a list of colleges that are based on your answers! For example, if your answers show that you would like a lot of financial aid, but don’t necessarily have a preference for flexibility, you would be plotted in the third quadrant. This is to help you get a personalized list of schools that align with your interests and needs!
+        </p>
+  </font>
+</div>     
+
+
+<title>Find Your Values</title>
+
+<head> 
+</head>
+
+<!-- <body style="background-color:rgb(39, 147, 167);" > -->
+  <link rel="stylesheet" href="buttons.css">
+
+
+<!-- </body> -->
+
+<style>
+  div.sticky {
+  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    background-color: #28327a;
+    padding: 20px;
+    font-size: 17px;
+    width: 20%;
+    height: 375px;
+    left: 10px;
+    border: black
+  }
+  
+  </style>
+  <div class ="sticky" >
+    <font color="white">
+      <center>
+    <h2 style="margin-right:40px"><ul>Instructions For Quiz!</ul></h2>
+     </center>
+    <ol>
+    <li>Answer our questions</li>
+    <li>Press submit</li>
+    <li>Press the “next” button in the bottom right of the page</li>
+    <li>You will then be plotted on the College Grid</li>
+    <li>Click around to the different colleges around your point</li>
+   </font>
+  </ol>
+    </div> 
+
+<div class="container">
+
+  <!-- Question 1-->
+  <p style="text-align:center;"> <b>1. If you get into your dream school, but they don’t give you any financial aid, would you still be able to attend?  </b></p>
+  <div class="btn-group">
+    <button 
+    onclick= "addValue('cost',5);">Yes, I have all finances covered, no matter what</button>
+    <button
+    onclick= "addValue('cost',-10);">No, I would need all the financial aid possible</button>
+    <button
+    onclick= "addValue('cost',0);">It depends on how expensive the school is</button>
+  </div>
+
+   <!-- Question 2-->
+   <p style="text-align:center;">2. <b>Do you know exactly what you want to major in?</b></p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',10);"
+     >What is a major?  </button>
+     <button
+     onclick= "addValue('flexibility',-10);"
+     >Yes! I know exactly what I want to do</button>
+     <button
+     onclick= "addValue('flexibility',5);"
+     >No, but I have some idea</button>
+   </div>
+
+   <!-- Question 3-->
+   <p style="text-align:center;"> <b>3. You get into your dream college, but you can’t change your major, what do you do?</b></p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',10);"
+     >Not pick that school, having an open curriculum is super important to me  </button>
+     <button
+     onclick= "addValue('flexibility',0);"
+     >Consider the school, I picked that major for a reason </button>
+     <button
+     onclick= "addValue('flexibility',-10);"
+     >100% go to that school, it’s my dream!  </button>
+   </div>
+     <!-- Question 4-->
+  <p style="text-align:center;"> <b>4.You’re struggling to pick between your dream school, which gave you no financial aid, and a different school that completely met your EFC (estimated financial contribution), what do you do?</b> </p>
+  <div class="btn-group">
+    <button 
+    onclick= "addValue('cost',-10);"
+    >Pick the different college, they offered me a lot of money</button>
+    <button
+    onclick= "addValue('cost',5);">Pick my dream school, I’ll find a way to make it work</button>
+    <button
+    onclick= "addValue('cost',-5);">Compromise on a different school that partially met my efc, but has similar values to my dream school</button>
+  </div>
+
+   <!-- Question 5-->
+   <p style="text-align:center;"> <b>5. Do you have a preference between a smaller, private school, as opposed to a bigger, public school? (keep in mind that typically private schools have more options for financial aid than public schools) 
+  </b> </p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',0);"
+    > I wouldn’t mind either
+  </button>
+     <button
+     onclick= "addValue('flexibility',-5);"
+     >I’m set on going to a bigger public school
+    </button>
+     <button
+     onclick= "addValue('flexibility',5);"
+     >I’m set on going to a smaller private school 
+    </button>
+   </div>
+
+   <!-- Question 6-->
+   <p style="text-align:center;"> <b>6. Do you want to go out of state?</b> </p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('cost',10);"
+     >Yes! :D</button>
+     <button
+     onclick= "addValue('cost',-10);"
+     >No! :(</button>
+     <button 
+     onclick= "addValue('cost',0);"
+     >I’m open to both</button>
+   </div>
+
+     <!-- Question 7-->
+  <p style="text-align:center;"> <b>7.Is an open curriculum important to you?
+  </b></p>
+  <div class="btn-group">
+    <button 
+    onclick= "addValue('flexibility',5);"
+    >Yes, I would like as much variety in my courses as possible </button>
+    <button
+    onclick= "addValue('flexibility',-5);"
+    >No, I honestly could care less </button>
+    <button
+    onclick= "addValue('flexibility',0);"
+    >What is an open curriculum?
+  </button>
+  </div>
+
+   <!-- Question 8-->
+   <p style="text-align:center;"> <b>8. Is having Greek life and big parties super important to you?</b></p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',10);"
+     >No, you couldn’t pay me to attend a party</button>
+     <button
+     onclick= "addValue('flexibility',-10);"
+     >Oh yeah, I’m a big party person!</button>
+     <button
+     onclick= "addValue('flexibility',0);"
+     >I would like it, but it’s not necessary</button>
+   </div>
+
+   <!-- Question 9-->
+   <p style="text-align:center;"> <b>9.How important is having a cute mascot to your college preference? (on a scale from UC Berkeley, to University of Oregon)
+  </b> </p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',0);"
+    >Why is this important? </button>
+     <button
+     onclick= "addValue('flexibility',-5);"
+     >Having a cute mascot is one of my top priorities</button>
+     <button
+     onclick= "addValue('flexibility',0);"
+     >I personally think the UC Berkeley mascot is cute 
+    </button>
+   </div>
+     <!-- Question 10-->
+  <p style="text-align:center;"> <b>10. Are you planning on attending a polytechnic or technical university?</b></p>
+  <div class="btn-group">
+    <button 
+    onclick= "addValue('cost',5);"
+    >Yes, I have my heart set</button>
+    <button
+    onclick= "addValue('cost',-5);"
+    >No, definitely not</button>
+    <button
+    onclick= "addValue('cost',0);"
+    >I’m maybe considering it</button>
+  </div>
+
+   <!-- Question 11-->
+   <p style="text-align:center;"> <b>11.Is it important for you to have a more well rounded education? (for example, taking a writing class, foreign language, etc. even if it does not directly relate to your major?)
+  </b></p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('flexibility',5);"
+    >Yes, I would really like to have a well-rounded education
+  </button>
+     <button
+     onclick= "addValue('flexibility',-5);"
+     >It doesn’t really matter to me
+    </button>
+     <button
+     onclick= "addValue('flexibility',0);"
+     > It would be nice, but not important 
+    </button>
+   </div>
+
+   <!-- Question 12-->
+   <p style="text-align:center;"> <b>12. Is it important to you to have to declare a major freshman year?</b></p>
+   <div class="btn-group">
+     <button
+     onclick= "addValue('cost',5);"
+     >Yes, I want to be able to take classes directed towards my major freshman year</button>
+     <button
+     onclick= "addValue('cost',-5);"
+     >No, I want as much variety in my freshman year courses as possible</button>
+     <button
+     onclick= "addValue('cost',0);"
+     >It might be nice to not have to declare a major, but it’s not a necessity</button>
+   </div>
+     <br>
+     <br>
+     <br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+
+</html>
+
+<div class = "container">
+<div id="calculator" style="width: 600px; height: 600px; margin-left: auto; margin-right: auto;"></div>
+</div>
+
+<script>
+  var xcor = dict['cost']
+  var ycor = dict['flexibility']
+
+  var elt = document.getElementById('calculator');
+  var calculator = Desmos.GraphingCalculator(elt, {expressions : false, expressionsCollapsed : false, keypad : false, zoomButtons : false, lockViewport :true, settingsMenu : false});
+
+  calculator.setExpression({ id: 'graph1', latex: `(${xcor}, ${ycor})` });
+  calculator.updateSettings({ xAxisLabel: '$$$', yAxisLabel: 'Flexibility' });
+  calculator.setMathBounds({left: -50, right: 50, bottom: -50, top: 50});
+
+</script>
+
+<br>
+<br>
+
+<div class= "container1" style= "display: none; ">
+
+  <!-- QUAD #1 -->
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="121345"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="193900"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="123961"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="209056"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="122612"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="126678"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="152080"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="216597"
+show-header="false"
+></div>
+</div>
+
+<div class= "container2" style= "display: none;">
+
+  <!-- QUAD #2 -->
+  <div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="235167"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="189088"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="217156"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="164465"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="153384"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="243744"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="190150"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="167835"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="209542"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="204501"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="212911"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="237057"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="166683"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="198419"
+  show-header="false"
+></div>
+></div>
+
+<div class= "container3" style= "display: none;">
+
+  <!-- QUAD #3 -->
+  <div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="230038"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="209825"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="201885"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="182290"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="110422"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="187963"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="170976"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="199120"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="190415"
+  show-header="false"
+></div>
+></div>
+
+<div class= "container4" style= "display: none;">
+
+  <!-- QUAD #4 -->
+  <div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="194824"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="152318"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="229115"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="115409"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="139755"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="186584"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="104151"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="232423"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="236948"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="223232"
+  show-header="false"
+></div>
+<br>
+<div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="207388"
+  show-header="false"
+></div>
+></div>
+
+<div class= "container5" style= "display: inherit;">
+
+  <!-- QUAD #5 -->
+  <div
+  class="collegeai collegeai-college-info-table"
+  data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+  data-college-unit-id="110662"
+  show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110680"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110635"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110705"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110653"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110644"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110714"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110671"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="445188"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110486"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="441937"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110538"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110547"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110574"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110556"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110565"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="115755"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110583"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110592"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="111188"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="409698"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110608"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110529"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110617"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110510"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="122409"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="122597"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="122755"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110422"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="366711"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="123572"
+show-header="false"
+></div>
+<br>
+<div
+class="collegeai collegeai-college-info-table"
+data-info-ids="admissions-website,short-description,city,calendar-system,average-net-cost"
+data-college-unit-id="110495"
+show-header="false"
+></div>
+></div>
+
+
+<button style="margin-top: 0px; margin-left: 1200px" type="button" onClick="window.location.href = 'New_project_file_3.html'">Next Page</button>
+
+
+
+    </body>
+        
+          
+</html> 

@@ -1,0 +1,92 @@
+
+.container{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border: none;
+    margin-top: -600px;
+}
+.container1{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: none;
+}
+.container2{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: none;
+}
+.container3{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: none;
+}
+.container4{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: none;
+}
+.container5{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: none;
+}
+
+
+.btn-group button {
+    background-color: #28327a; /* Green background */
+    border: 1px solid rgb(0, 0, 0); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #00a2ff;
+  }
+
+  .button {
+
+    position: relative;
+    background-color: #00a2ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #840000;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button1:hover {
+    background-color: #840000;
+    color: white;
+    
+}
